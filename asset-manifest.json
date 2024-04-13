@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ELECTIVAFINAL/static/css/main.5715a970.css",
+    "main.js": "/ELECTIVAFINAL/static/js/main.a29a3701.js",
+    "static/js/453.3a5edd41.chunk.js": "/ELECTIVAFINAL/static/js/453.3a5edd41.chunk.js",
+    "static/media/logo.svg": "/ELECTIVAFINAL/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ELECTIVAFINAL/index.html",
+    "main.5715a970.css.map": "/ELECTIVAFINAL/static/css/main.5715a970.css.map",
+    "main.a29a3701.js.map": "/ELECTIVAFINAL/static/js/main.a29a3701.js.map",
+    "453.3a5edd41.chunk.js.map": "/ELECTIVAFINAL/static/js/453.3a5edd41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5715a970.css",
+    "static/js/main.a29a3701.js"
+  ]
+}
