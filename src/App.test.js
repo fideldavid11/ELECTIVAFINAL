@@ -1,8 +1,22 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders "¡Hola Mundo!" text', () => {
+  const { getByText } = render(<App />);
+  const helloWorldText = getByText('¡Hola Mundo!');
+  expect(helloWorldText).toBeInTheDocument();
 });
+
+test('renders with blue background', () => {
+  const { container } = render(<App />);
+  expect(container.firstChild).toHaveClass('bg-blue-500');
+});
+
+test('renders with white text', () => {
+  const { getByText } = render(<App />);
+  const helloWorldText = getByText('¡Hola Mundo!');
+  expect(helloWorldText).toHaveClass('text-white');
+});
+
